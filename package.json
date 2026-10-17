@@ -1,6 +1,6 @@
 {
   "name": "opencode-search-sessions",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Incremental full-text search for OpenCode session history",
   "type": "module",
   "main": "./index.ts",
