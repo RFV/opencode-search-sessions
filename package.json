@@ -1,0 +1,55 @@
+{
+  "name": "opencode-search-sessions",
+  "version": "0.1.0",
+  "description": "Incremental full-text search for OpenCode session history",
+  "type": "module",
+  "main": "./index.ts",
+  "exports": {
+    ".": "./index.ts",
+    "./tui": "./tui.ts"
+  },
+  "files": [
+    "src",
+    "index.ts",
+    "tui.ts",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@opencode/plugin": "^2.0.26"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "opencode-v2",
+    "session",
+    "search",
+    "full-text-search",
+    "sqlite",
+    "fts5",
+    "tui",
+    "bun"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RFV/opencode-search-sessions.git"
+  },
+  "homepage": "https://github.com/RFV/opencode-search-sessions#readme",
+  "bugs": {
+    "url": "https://github.com/RFV/opencode-search-sessions/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "packageManager": "bun@1.4.3"
+}
